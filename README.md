@@ -17,7 +17,7 @@ tradeoff in Size/Quality.
 Make sure you have Python 3 installed.
 
 You will also need to install the python packages:
-- (inquirer) [https://pypi.org/project/inquirer/]
+- [inquirer] (https://pypi.org/project/inquirer/)
 
 ## Usage
 To start you need to make sure that there are two folders:
