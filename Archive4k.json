@@ -1,0 +1,131 @@
+{
+  "PresetList": [
+    {
+      "PresetName": "Archive 4k HDR",
+      "Default": true,
+      "PresetDisabled": false,
+      "Type": 1,
+      
+     
+      "FileFormat": "av_mkv",
+      "Folder": false,
+      "FolderOpen": false,
+      "Optimize": false,
+      "Mp4iPodCompatible": false, 
+
+      
+      "VideoEncoder": "nvenc_h265_10bit", 
+      "VideoQualityType": 2,
+      "VideoQualitySlider": 20,
+      "VideoAvgBitrate": 0,
+      "VideoMultiPass": false,
+      "VideoTurboMultiPass": false,
+      "VideoFramerate": "auto",
+      "VideoFramerateMode": "vfr",
+      "VideoColorMatrixCode": 0,
+      "VideoGrayScale": false,
+      "VideoScaler": "swscale",
+      "VideoPreset": "slow",
+      "VideoTune": "",
+      "VideoProfile": "main10",
+      "VideoLevel": "auto",
+      "VideoOptionExtra": "hdr10=1",
+      "x264UseAdvancedOptions": false,
+
+      
+      "AudioTrackSelectionBehavior": "all",   
+      "AudioLanguageList": ["any"],
+      "AudioList": [
+        {
+            "AudioBitrate": -1,
+            "AudioCompressionLevel": -1,
+            "AudioDitherMethod": "auto",
+            "AudioEncoder": "copy",
+            "AudioMixdown": "none",
+            "AudioNormalizeMixLevel": false,
+            "AudioSamplerate": "auto",
+            "AudioTrackQualityEnable": false,
+            "AudioTrackQuality": -1,
+            "AudioTrackGainSlider": 0.0,
+            "AudioTrackDRCSlider": 0.0
+        }
+      ],
+      "AudioCopyMask": [
+        "copy:aac",
+        "copy:ac3",
+        "copy:dtshd",
+        "copy:dts",
+        "copy:mp3",
+        "copy:truehd",
+        "copy:flac",
+        "copy:eac3"
+      ],
+      "AudioEncoderFallback": "ac3",
+      "AudioSecondaryEncoderMode": false,
+      
+      
+      "SubtitleTrackSelectionBehavior": "all",
+      "SubtitleLanguageList": ["any"],
+      "SubtitleAddCC": true,
+      "SubtitleAddForeignAudioSearch": true,
+      "SubtitleAddForeignAudioSubtitle": true, 
+      "SubtitleBurnBehavior": "none",
+      "SubtitleBurnBDSub": false,
+      "SubtitleBurnDVDSub": false,
+
+      
+      "PictureAutoCrop": true,
+      "PictureCropMode": 0,
+      "PictureBottomCrop": 0,
+      "PictureLeftCrop": 0,
+      "PictureRightCrop": 0,
+      "PictureTopCrop": 0,
+      "PictureWidth": 3840,
+      "PictureHeight": 2160,
+      "PictureKeepRatio": true,
+      "PictureAllowUpscaling": false,
+      "PictureUseMaximumSize": true,
+      "PictureForceWidth": 0,
+      "PictureForceHeight": 0,
+      "PicturePadMode": "none",
+      "PicturePadTop": 0, "PicturePadBottom": 0, "PicturePadLeft": 0, "PicturePadRight": 0,
+      "PictureItuPAR": false,
+      "PicturePAR": "auto",
+      "PicturePARWidth": 0, "PicturePARHeight": 0,
+      "PictureDARWidth": 0,
+      
+      
+      "PictureDeblockPreset": "off",
+      "PictureDeblockTune": "off",
+      "PictureDeblockCustom": "",
+      "PictureDeinterlaceFilter": "off",
+      "PictureCombDetectPreset": "off",
+      "PictureCombDetectCustom": "",
+      "PictureDeinterlacePreset": "off",
+      "PictureDeinterlaceCustom": "",
+      "PictureDenoiseFilter": "off",
+      "PictureDenoiseCustom": "",
+      "PictureSharpenFilter": "off",
+      "PictureSharpenPreset": "off",
+      "PictureSharpenTune": "none",
+      "PictureSharpenCustom": "",
+      "PictureDetelecine": "off",
+      "PictureDetelecineCustom": "",
+      "PictureColorspacePreset": "off",
+      "PictureColorspaceCustom": "",
+      "PictureChromaSmoothPreset": "off",
+      "PictureChromaSmoothTune": "none",
+      "PictureChromaSmoothCustom": "",
+      
+      
+      "AlignAVStart": true,
+      "ChapterMarkers": true,
+      "ChildrenArray": [],
+      "MetadataPassthrough": true
+    }
+  ],
+  
+  "VersionMajor": 53,
+  "VersionMinor": 0,
+  "VersionMicro": 0
+}
